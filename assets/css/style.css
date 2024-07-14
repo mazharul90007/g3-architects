@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans", sans-serif; */
+/* shared style */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.bg-color {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.dark-black {
+    color: rgb(19, 19, 19);
+}
+
+.light-black {
+    color: rgb(114, 114, 114);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.common-paragraph {
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.primary-button {
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    padding: 1.25rem 1.5rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* Header part css start */
+.brand {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar ul {
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: rgb(66, 66, 66);
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner button{
+    margin: 2rem 0 3rem;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+/* Header part css end */
