@@ -28,6 +28,11 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+.common-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(19, 19, 19);
+}
 
 .common-paragraph {
     color: rgb(114, 114, 114);
@@ -43,13 +48,13 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+}
+section{
+    margin-top: 120px;
 }
 
 /* Header part css start */
-.brand {
-    font-size: 3rem;
-    font-weight: 700;
-}
 
 .navbar {
     justify-content: space-between;
@@ -85,3 +90,31 @@ body {
 }
 
 /* Header part css end */
+/* feature part css start */
+
+.feature-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 76px;
+}
+.feature-heading-first{
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+}
+.feature-heading-last{
+    font-weight: 700;
+    color: rgb(255, 144, 14);
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.feature-images img{
+    width: 100%;
+    height: auto;
+}
+.feature-description{
+    
+}
+/* feature part css end */
