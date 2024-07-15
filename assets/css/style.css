@@ -28,10 +28,12 @@ body {
     width: 80%;
     margin: 0 auto;
 }
-.common-heading{
+
+.common-heading {
     font-size: 3rem;
     font-weight: 700;
     color: rgb(19, 19, 19);
+    margin: 0;
 }
 
 .common-paragraph {
@@ -50,7 +52,8 @@ body {
     border: none;
     cursor: pointer;
 }
-section{
+
+section {
     margin-top: 120px;
 }
 
@@ -81,10 +84,12 @@ section{
     font-size: 4rem;
     font-weight: 700;
 }
-.banner button{
+
+.banner button {
     margin: 2rem 0 3rem;
 }
-.banner img{
+
+.banner img {
     width: 100%;
     height: auto;
 }
@@ -92,29 +97,55 @@ section{
 /* Header part css end */
 /* feature part css start */
 
-.feature-content{
+.feature-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 76px;
 }
-.feature-heading-first{
+
+.feature-heading-first {
     font-weight: 500;
     color: rgb(114, 114, 114);
 }
-.feature-heading-last{
+
+.feature-heading-last {
     font-weight: 700;
     color: rgb(255, 144, 14);
 }
-.feature-images{
+
+.feature-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.feature-images img{
+
+.feature-images img {
     width: 100%;
     height: auto;
 }
-.feature-description{
+
+.feature-description {}
+
+/* feature part css end */
+/* fact part css start */
+.fact > p{
+    margin: 24px 0 100px;
+}
+.fact-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    justify-content: space-around;
     
 }
-/* feature part css end */
+.fact-card-items {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    text-align: center;
+    padding: 16px 32px;
+}
+.fact-card-items > h4 {
+    margin: 5px 0;
+}
+
+/* fact part css end */
