@@ -125,7 +125,6 @@ section {
     height: auto;
 }
 
-.feature-description {}
 
 /* feature part css end */
 /* fact part css start */
@@ -150,3 +149,17 @@ section {
 }
 
 /* fact part css end */
+/* sponsor part css start */
+.sponsor{
+    text-align: center;
+}
+.sponsor > p{
+    margin: 24px 0 48px;
+}
+.sponsor-image-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+    filter: grayscale(100%);
+}
+/* sponsor part css end */

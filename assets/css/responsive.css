@@ -12,6 +12,9 @@
     .fact-card{
         grid-template-columns: repeat(1, 1fr);
     }
+    .sponsor-image-container{
+        grid-template-columns: 1fr;
+    }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .navbar{
@@ -19,5 +22,9 @@
     }
     .fact-card{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsor-image-container{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
     }
 }
